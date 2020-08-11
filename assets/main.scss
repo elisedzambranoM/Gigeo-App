@@ -1,3 +1,11 @@
 @import './sass/7-vendors/bootstrap-4.5.2/bootstrap';
 
+@import './sass/1-abstracts/variables.scss';
+
 @import './sass/3-components/banner.scss';
+
+@import './sass/2-base/typography.scss';
+
+@import './sass/4-layout/header.scss';
+
+@import './sass/4-layout/section.scss';
