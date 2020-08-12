@@ -1,8 +1,14 @@
 .banner {
     background-image: url("../images/image-banner.png");
-    height: 250px;
+    height: 200px;
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 425px) {
+    .banner {
+        height: 100px;
+    }
 }
 
 .navbar__item {
